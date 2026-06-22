@@ -6,3 +6,17 @@
 html {
     scroll-behavior: smooth;
 }
+
+.navbar-transparente {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-transparente .nav-link,
+.navbar-transparente .navbar-brand {
+    color: #fff;
+}
+
+.navbar-transparente .nav-link:hover {
+    color: #0dcaf0;
+}
