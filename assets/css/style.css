@@ -1,4 +1,4 @@
-.logo{
+.logo {
     /*ajustar tamaño del logo*/
     max-width: 25px;
 }
@@ -19,4 +19,18 @@ html {
 
 .navbar-transparente .nav-link:hover {
     color: #0dcaf0;
+}
+
+.icon {
+    width: 10px;
+
+}
+
+.icon-section {
+    background-color: #0dcaf0;
+    text-align: center;
+}
+.q-somos{
+    background-color: #000000;
+    color: #ffffff;
 }
