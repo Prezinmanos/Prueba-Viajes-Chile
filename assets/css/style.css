@@ -1,0 +1,8 @@
+.logo{
+    /*ajustar tamaño del logo*/
+    max-width: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
