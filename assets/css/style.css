@@ -1,10 +1,20 @@
+    /*ajustar tamaño del logo
+    usar Raleway y Open sans de fuente
+    centrar las cards para moviles
+    estandarisar el tamaño de las fotos de las cards*/
+
+
 .logo {
-    /*ajustar tamaño del logo*/
+
     max-width: 25px;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.body {
+    background-color: #000000;
 }
 
 .navbar-transparente {
@@ -30,7 +40,8 @@ html {
     background-color: #0dcaf0;
     text-align: center;
 }
-.q-somos{
+
+.q-somos {
     background-color: #000000;
     color: #ffffff;
 }
