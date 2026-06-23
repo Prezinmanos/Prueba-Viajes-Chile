@@ -48,7 +48,7 @@ body {
     font-size: 35px;
 }
 
-   /* Fuentes generales de los titulos y textos */
+/* Fuentes generales de los titulos y textos */
 
 .text {
     font-family: "Open Sans", sans-serif;
@@ -60,7 +60,7 @@ h2 {
     font-weight: 700;
 }
 
-   /* Cards de la sección Destacados
+/* Cards de la sección Destacados
       Estilos generales de las tarjetas, ajustes de tamaño para las imagenes */
 .card {
     background-color: #00D0FF;
@@ -70,6 +70,18 @@ h2 {
 .card-img-top {
     height: 200px;
     object-fit: cover;
+}
+
+/* Botón del formulario, color y fondo*/
+.btn-primary {
+    background-color: #00D0FF;
+    border-color: #00D0FF;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #00b8e0;
+    border-color: #00b8e0;
 }
 
 /* Footer, color de fondo*/
