@@ -1,3 +1,5 @@
+/* Toolstip para los iconos */
+
 document.addEventListener('DOMContentLoaded', function () {
     var tooltipTriggerList = [].slice.call(
         document.querySelectorAll('[data-bs-toggle="tooltip"]')

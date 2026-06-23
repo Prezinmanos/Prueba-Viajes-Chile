@@ -1,15 +1,18 @@
-.logo {
-
-    max-width: 25px;
-}
-
+/* Desplazamiento Smooth al hacer clic en enlaces internos */
 html {
     scroll-behavior: smooth;
 }
 
-.body {
+/* Estilos base del cuerpo del documento */
+body {
     background-color: #000000;
     color: #ffffff;
+}
+
+/* Logo , Navbar y elementos de navegación */
+
+.logo {
+    max-width: 25px;
 }
 
 .navbar-transparente {
@@ -19,38 +22,49 @@ html {
 
 .navbar-transparente .nav-link,
 .navbar-transparente .navbar-brand {
-    color: #fff;
+    color: #ffffff;
 }
 
 .navbar-transparente .nav-link:hover {
     color: #0dcaf0;
 }
 
-.icon {
-    width: 10px;
 
-}
-
-.icon-section {
-    background-color: #0dcaf0;
-    text-align: center;
-}
-
+/* Sección ¿Quiénes Somos?
+   Contenedor general, estilo de iconos, fondo e iconos centrados */
 .q-somos {
     padding-top: 25px;
     background-color: #000000;
     color: #ffffff;
 }
 
-
-.footer {
-    background-color: #00D0FF;
+.icon {
+    width: 10px;
 }
 
+.icon-section {
+    background-color: #00D0FF;
+    text-align: center;
+    font-size: 35px;
+}
+
+   /* Fuentes generales de los titulos y textos */
+
+.text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+   /* Cards de la sección Destacados
+      Estilos generales de las tarjetas, ajustes de tamaño para las imagenes */
 .card {
     background-color: #00D0FF;
     color: #ffffff;
-
 }
 
 .card-img-top {
@@ -58,18 +72,8 @@ html {
     object-fit: cover;
 }
 
-.text {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+/* Footer, color de fondo*/
 
-}
-
-.h2 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-}
-
-.icon-section {
-    font-size: 35px;
+.footer {
     background-color: #00D0FF;
 }
