@@ -1,81 +1,75 @@
-    /*ajustar tamaño del logo
-    usar Raleway y Open sans de fuente
-    centrar las cards para moviles
-    estandarisar el tamaño de las fotos de las cards*/
+.logo {
+
+    max-width: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar-transparente {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-transparente .nav-link,
+.navbar-transparente .navbar-brand {
+    color: #fff;
+}
+
+.navbar-transparente .nav-link:hover {
+    color: #0dcaf0;
+}
+
+.icon {
+    width: 10px;
+
+}
+
+.icon-section {
+    background-color: #0dcaf0;
+    text-align: center;
+}
+
+.q-somos {
+    padding-top: 25px;
+    background-color: #000000;
+    color: #ffffff;
+}
 
 
-    .logo {
+.footer {
+    background-color: #00D0FF;
+}
 
-        max-width: 25px;
-    }
+.card {
+    background-color: #00D0FF;
+    color: #ffffff;
 
-    html {
-        scroll-behavior: smooth;
-    }
+}
 
-    .body {
-        background-color: #000000;
-        color: #ffffff;
-    }
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
 
-    .navbar-transparente {
-        background-color: transparent;
-        transition: background-color 0.3s ease;
-    }
+.text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
 
-    .navbar-transparente .nav-link,
-    .navbar-transparente .navbar-brand {
-        color: #fff;
-    }
+}
 
-    .navbar-transparente .nav-link:hover {
-        color: #0dcaf0;
-    }
+.h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
 
-    .icon {
-        width: 10px;
-
-    }
-
-    .icon-section {
-        background-color: #0dcaf0;
-        text-align: center;
-    }
-
-    .q-somos {
-        padding-top: 25px;
-        background-color: #000000;
-        color: #ffffff;
-    }
-
-
-    .footer {
-        background-color: #00D0FF;
-    }
-
-    .card {
-        background-color: #00D0FF;
-        color: #ffffff;
-
-    }
-
-    .card-img-top {
-        height: 200px;
-        object-fit: cover;
-    }
-
-    .text {
-        font-family: "Open Sans", sans-serif;
-        font-weight: 400;
-
-    }
-
-    .h2 {
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-    }
-
-    .icon-section {
-        font-size: 35px;
-        background-color: #00D0FF;
-    }
+.icon-section {
+    font-size: 35px;
+    background-color: #00D0FF;
+}
